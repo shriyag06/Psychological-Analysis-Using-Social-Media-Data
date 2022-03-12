@@ -1,1 +1,3 @@
-all
+word_tokenize
+stopwords
+PorterStemmer
