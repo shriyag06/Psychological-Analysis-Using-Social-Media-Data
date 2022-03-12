@@ -8,6 +8,18 @@ Created on Sun Mar  6 12:35:55 2022
 from flask import Flask,render_template,request,url_for
 
 import pickle
+import nltk
+nltk.download("punkt")
+
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
+#import matplotlib.pyplot as plt
+#from wordcloud import WordCloud
+from math import log
+import pandas as pd
+import numpy as np
+
 
 
 #from final_year_project import TweetClassifier
@@ -33,6 +45,23 @@ def predict():
     
     if request.method == 'POST':
         message = request.form['message']
+	def process_message(message, lower_case = True, stem = True, stop_words = True, gram = 2):
+	    if lower_case:
+		message = message.lower()
+	    words = word_tokenize(message)
+	    words = [w for w in words if len(w) > 2]
+	    if gram > 1:
+		w = []
+		for i in range(len(words) - gram + 1):
+		    w += [' '.join(words[i:i + gram])]
+		return w
+	    if stop_words:
+		sw = stopwords.words('english')
+		words = [word for word in words if word not in sw]
+	    if stem:
+		stemmer = PorterStemmer()
+		words = [stemmer.stem(word) for word in words]   
+	    return words
         
         
         pm =process_message(message)
