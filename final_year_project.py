@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # Commented out IPython magic to ensure Python compatibility.
-
+nltk.download()
 import nltk
 
 
