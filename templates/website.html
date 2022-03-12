@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Lato">
+        <title>Final Year Project</title> 
+        <style>
+            h2{
+                position: absolute;
+                width: 147px;
+                height: 48px;
+                left: 125px;
+                top: 45px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 40px;
+                line-height: 48px;
+            }
+            #navelement1{  /*Service*/
+            position: absolute;
+            width: 102px;
+            height: 38px;
+            left: 649px;
+            top: 50px;
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 38px;
+            color: #000000;
+            }
+
+            #navelement3{  /*About Us*/
+            position: absolute;
+            width: 87px;
+            height: 38px;
+            left: 900px;
+            top: 50px;  
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 38px; 
+            color: #000000;
+            }
+            #navelement4{  /*Contact*/
+            position: absolute;
+            width: 156px;
+            height: 38px;
+            left: 1151px;
+            top: 50px;
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 38px;
+            color: #000000;
+            }
+            #main1{
+                position: absolute;
+                width: 547px;
+                height: 192px;
+                left: 110px;
+                top: 150px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 75px;
+                line-height: 80px;
+                color: #000000;
+            }
+            #maintext{
+                position: relative;
+                width: 680px;
+                height: 184px;
+                left: 107px;
+                top: 350px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 33px;
+                line-height: 46px;
+                text-align: left;
+                color: #8E8E8E;         
+            }
+            .btn1{
+                position: absolute;
+                width: 258px;
+                height: 68px;
+                left: 107px;
+                top: 676px;
+                background-color: #05466a;
+                border-radius: 16px;
+                text-align: center;
+                font-size: 28px;
+                font-family: "Lato";
+            }
+            .btn2{
+                position: absolute;
+                width: 258px;
+                height: 68px;
+                left: 388px;
+                top: 676px;
+                font-family: "Lato";
+                font-size: 28px;
+                line-height: 34px;
+                background-color: #ffffff;
+                text-align: center;
+                border-radius: 16px;
+                border-color: #05466a;
+            } 
+            .rectangle{
+                position: absolute;
+                width: 1500px;
+                height: 932px;
+                left: 0px;
+                top: 905px;
+                background-color: #05466a;
+            }
+            #descrip-text{
+                position: absolute;
+                width: 910px;
+                height: 96px;
+                left: 107px;
+                top: 1027px;
+                font-family: "Lato";
+                font-style: normal;
+                font-size: 40px;
+                line-height: 48px;  
+                  
+            }
+            #con1{
+                position: absolute;
+                width: 135px;
+                height: 48px;
+                left: 102px;
+                top: 1174px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 40px;
+                line-height: 48px;
+            }
+            #des1{
+                position: absolute;
+                width: 314px;
+                height: 252px;
+                left: 102px;
+                top: 1241px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 30px;
+                line-height: 36px;
+            }
+            #con2{
+                position: absolute;
+                width: 100px;
+                height: 48px;
+                left: 467px;
+                top: 1174px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 40px;
+                line-height: 48px;
+            }
+            #des2{
+                position: absolute;
+                width: 404px;
+                height: 360px;
+                left: 467px;
+                top: 1231px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 30px;
+                line-height: 36px;
+            }
+            #con3{
+                position: absolute;
+                width: 198px;
+                height: 48px;
+                left: 933px;
+                top: 1174px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 40px;
+                line-height: 48px;
+            }
+            #des3{
+                position: absolute;
+                width: 387px;
+                height: 360px;
+                left: 933px;
+                top: 1231px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 30px;
+                line-height: 36px;
+            }
+            .rect1{
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                left: 107px;
+                top: 1629px;
+                background-color: #0479BA;
+                border-radius: 4px;
+            }
+            .rect2{
+                position: absolute;
+                width: 50px;
+                height: 1px;
+                left: 161px;
+                top: 1650px;
+                background-color: #0479BA;
+            }
+            .rect3{
+                position: absolute;
+                width: 50px;
+                height: 1px;
+                left: 226px;
+                top: 1650px;
+                background-color: #C4C4C4;
+            }
+            .rect4{
+                position: absolute;
+                width: 50px;
+                height: 1px;
+                left: 291px;
+                top: 1650px;
+                background-color: #C4C4C4;
+            }
+            .rect5{
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                left: 355px;
+                top: 1629px;
+                background-color: #0479BA;
+                border-radius: 4px;
+            }
+            #heading1{
+                position: absolute;
+                width: 331px;
+                height: 72px;
+                left: 547px;
+                top: 1917px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 60px;
+                line-height: 72px;
+            }
+            #heading2{
+                position: absolute;
+                width: 771px;
+                height: 96px;
+                left: 547px;
+                top: 2011px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 40px;
+                line-height: 48px;
+            }
+            #heading3{
+                position: absolute;
+                width: 505px;
+                height: 48px;
+                left: 547px;
+                top: 2149px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 40px;
+                line-height: 48px;
+            }
+            #subheading1{
+                position: absolute;
+                width: 688px;
+                height: 60px;
+                left: 547px;
+                top: 2204px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+                line-height: 30px;
+            }
+            #heading4{
+                position: absolute;
+                width: 204px;
+                height: 48px;
+                left: 547px;
+                top: 2286px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 40px;
+                line-height: 48px;
+            }
+            #subheading2{
+                position: absolute;
+                width: 688px;
+                height: 60px;
+                left: 547px;
+                top: 2341px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+                line-height: 30px;
+            }
+            #heading5{
+                position: absolute;
+                width: 299px;
+                height: 48px;
+                left: 547px;
+                top: 2423px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 40px;
+                line-height: 48px;
+            }
+            #subheading3{
+                position: absolute;
+                width: 698px;
+                height: 60px;
+                left: 547px;
+                top: 2478px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+                line-height: 30px;
+            }
+            #finalhead{
+                position: absolute;
+                width: 388px;
+                height: 84px;
+                left: 102px;
+                top: 2612px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 70px;
+                line-height: 84px;        
+            }
+            .text1{
+                position: absolute;
+                width: 660px;
+                height: 60px;
+                left: 102px;
+                top: 2765px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 50px;
+                line-height: 60px;
+            }
+            #projectarea{
+                position: absolute;
+                width: 1236px;
+                height: 454px;
+                left: 102px;
+                top: 2843px;
+                border: 1px solid #000000;
+                box-sizing: border-box;
+                border-radius: 16px;
+            }
+            .text2{
+                position: absolute;
+                width: 454px;
+                height: 60px;
+                left: 154px;
+                top: 2879px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 50px;
+                line-height: 60px;
+            }
+            #btn3{
+                position: absolute;
+                width: 544px;
+                height: 100px;
+                left: 102px;
+                top: 3180px;
+                background-color: #05466a;
+                border-radius: 16px;
+                font-family: "Lato";
+                font-style: normal;
+                font-size: 36px;
+                line-height: 43px;
+
+            }
+          #text66{
+		  position: absolute;
+           top: 2850px; 
+           left: 102px;
+		   font-family: "Lato";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 30px;
+		  
+		  }
+           #text99{
+		   width: 544px;
+            height: 100px;
+     position: absolute;
+           top: 3000px; 
+           left: 102px;
+		   font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+               
+           
+        }
+        </style>
+    </head>
+    <body>
+        <div id="container1">
+            <h2>Psychify</h2>
+            <p id="navelement1">Service</p>
+            
+            <p id="navelement3">About</p>
+            <p id="navelement4">Contact</p>
+                <div id="content1">
+                    <p id="main1">Psychotherapy <span style="color:#0479ba">for your needs</span></p>
+                    <p id="maintext">Psychology is the science of mind and <br>
+                        behaviour. It includes the study of conscious and unconscious phenomena, 
+                        as well as feeling and thought.</p>
+                </div>
+                <button onclick="window.location.href='#finalhead'" class="btn1" style="color: #ffffff">Get Started</button>
+                <button onclick="window.location.href='#descrip-text'" class="btn2" style="color: #05466a">Read More</button>
+        </div>   
+        <div id="rect_container">
+            <div class="rectangle"></div>
+            <p id="descrip-text" style="color:#ffffff">I can help you in <span style="color: #0479ba">Psychotherapy</span> and <span style="color: #0479ba">Psychological areas</span>. Below are some topics we can work on:</p>
+            <p id="con1" style="color: #ffffff">Anxiety</p>
+            <p id="des1" style="color: #ffffff">Anxiety is a feeling of fear, dread, and uneasiness. It might cause you to sweat, feel restless and tense, and have a rapid heartbeat.</p>
+            <p id="con2" style="color: #ffffff">PTSD</p>
+            <p id="des2" style="color: #ffffff">Post-traumatic stress disorder (PTSD) is a mental health condition that's triggered by a terrifying event — either experiencing it or witnessing it. Symptoms may include flashbacks, nightmares and severe anxiety, as well as uncontrollable thoughts about the event.</p>
+            <p id="con3" style="color: #ffffff">Depression</p>
+            <p id="des3" style="color: #ffffff">Depression (major depressive disorder) is a common and serious medical illness that negatively affects how you feel, the way you think and how you act. Fortunately, it is also treatable. Depression causes feelings of sadness and/or a loss of interest in activities you once enjoyed.</p>
+
+        </div> 
+        <div id="final-container">
+            <p id="heading1" style="color: #000000">Our <span style="color:#0479ba">Services</span></p>
+            <p id="heading2" style="color:#60b2e0">We create smart and agile tests experiences for <span style="color:#585656">Experience Management</span></p>
+            <p id="heading3" style="color: #585656">Psychotherapy & Psychology</p>
+            <p id="subheading1" style="color: #60b2e0">Psychotherapy is the use of psychological methods particularly when based on reguar personal interaction with adult</p>
+            <p id="heading4" style="color: #585656">Supervision</p>
+            <p id="subheading2" style="color: #60b2e0">Supervison is an act or instance of directing, managing, or oversight</p>
+            <p id="heading5" style="color: #585656">Psychoeducation</p>
+            <p id="subheading3" style="color: #60b2e0">Psychoeducation is an evidence-based therapeutic intervention for patients</p>
+            <p id="finalhead" style="color: #0479ba">#Get Started</p>
+            <span class="text1" style="color: #000000">Let us see what you're feeling!</span>
+            
+
+            
+<form action="{{ url_for('predict')}}" method="POST">
+      <p id="text66">Enter Your Message Here</p>
+   <!-- <input type="text" name="comment"/> -->
+    <textarea id="text99" name="message" rows="6" cols="50"></textarea>
+  <br/>
+
+  <input type="submit" id="btn3" value="Compute Results">
+
+</form>
+
+        </div>
+        
+
