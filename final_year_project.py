@@ -7,10 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1rXDC8Rd9UwzZrveBoJ19OPOxtzMh48NX
 """
 
+
+import nltk
 # Commented out IPython magic to ensure Python compatibility.
 nltk.download()
-import nltk
-
 
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
