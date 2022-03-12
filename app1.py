@@ -73,4 +73,4 @@ def predict():
 if __name__ == '__main__':
     
     
-    app.run(debug=True)
+    app1.run(debug=True)
