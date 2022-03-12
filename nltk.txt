@@ -1,3 +1,3 @@
-nltk.tokenize\n
-stopwords\n
-Porter_test
+nltk.tokenize
+nltk.stem
+nltk.corpus
