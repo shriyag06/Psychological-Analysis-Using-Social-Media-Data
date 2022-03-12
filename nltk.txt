@@ -1,3 +1,0 @@
-porter_test
-punkt
-stopwords
