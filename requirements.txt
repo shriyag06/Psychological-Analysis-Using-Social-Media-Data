@@ -4,6 +4,6 @@ gunicorn==20.1.0
 itsdangerous==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
-nltk==3.6.5
+nltk>=3.4.5
 Werkzeug==0.15.5
 
